@@ -1,4 +1,4 @@
-Visual Cell
+Allen Cell react-redux app setup
 =================
 
 #### Install:
