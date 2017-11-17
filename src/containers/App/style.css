@@ -1,0 +1,44 @@
+@import "../../styles/breakpoints.css";
+@import "../../styles/typography.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    /* AICS theme*/
+    font-family: var(--typeface);
+    color: var(--fontColor);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
+
+@media (--small-screen) {
+    .content-container {
+        flex-direction: column;
+    }
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.sidebar {
+    flex: 0 0 auto;
+}
+
+@media (--small-screen) {
+    .sidebar {
+        flex-basis: auto;
+    }
+}

@@ -1,0 +1,11 @@
+@import "../../styles/breakpoints.css";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-size-responsive: 16px 26px var(--smallScreenMaxWidth) var(--largeScreenMinWidth);
+}

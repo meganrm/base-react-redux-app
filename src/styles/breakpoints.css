@@ -1,0 +1,7 @@
+:root {
+    --smallScreenMaxWidth: 600px;
+    --largeScreenMinWidth: 1280px;
+}
+
+@custom-media --small-screen (width <= 600px);
+@custom-media --medium-screen (width <= 1280px);
